@@ -1,0 +1,17 @@
+logging:
+  level:
+    cce: INFO
+    org:
+      springframework:
+        ws: DEBUG
+#client.ssl.trust-store: classpath:truststore.jks
+#client.ssl.trust-store-password: changeit
+client.ssl.key-store: /home/ubuntu/development_companyinfo_bridgefund_nl_p7b.jks
+client.ssl.key-store-alias: cert
+client.ssl.key-store-password: damith
+client.ws:
+  url: 'http://schemas.kvk.nl/contracts/kvk/dataservice/catalogus/2015/02/KVK-KvKDataservice.wsdl'
+  #reply: 'https://uat.captorapi.cor.state.pa.us/cce/CCEReply.svc'
+  #user: 'test.user'
+  #trackingId: 'T4504835'
+  #docketId: 'CP-25-CR-0002884-2016'
