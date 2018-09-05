@@ -24,8 +24,8 @@ public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
     }
-    @Value("${client.ws.user}")
-    String authenticatedUserId;
+//    @Value("${client.ws.user}")
+//    String authenticatedUserId;
 
 //    @Value("${client.ws.reply}")
 //    String replyURI;
